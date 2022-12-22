@@ -37,6 +37,11 @@ h1 {
     border: solid 5px royalblue;
 }
 
+.main-hero h2 {
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+}
+
 
 /* responsivo */
 
@@ -44,4 +49,13 @@ h1 {
     .navbar-brand {
         display: none;
     }
+}
+
+@media screen and (min-width: 700px) {
+    .sec-hero-img {
+        max-width: 600px;
+    }
+}
+
+
 }
