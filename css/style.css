@@ -29,6 +29,14 @@ h1 {
     min-height: 450px;
 }
 
+.dev-img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: solid;
+}
+
 
 /* responsivo */
 
