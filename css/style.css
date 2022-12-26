@@ -108,3 +108,12 @@ h1 {
     font-weight: bold;
     margin: 10px 0;
 }
+
+.expert i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+
+}
