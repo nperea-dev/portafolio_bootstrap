@@ -15,7 +15,10 @@
     color: white;
     background-color: #1b1b32;
 }
-
+.lg-sect{
+    color: black;
+    background-color: white;
+}
 
 /***********************************************/
 
@@ -68,7 +71,7 @@ h1 {
 /*conoceme*/
 
 .conoceme {
-    height: 500px;
+    height: 600px;
     padding: 10px;
 }
 
@@ -92,4 +95,16 @@ h1 {
     }
 }
 
+.expert  {
+    padding: 40px;
+}
+.expert .row div{
+    height: 250px;
+    background-color: blueviolet;
+    border: solid 3px orange;
+}
+.exp-titl{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
 }
