@@ -36,10 +36,11 @@
     background-color: white;
 }
 
-.texto-negro{
+.texto-negro {
     color: black;
 }
-.texto-blanco{
+
+.texto-blanco {
     color: white;
 }
 
@@ -104,46 +105,12 @@ h1 {
     text-align: center;
 }
 
-
 p a {
-    text-decoration:none ;
+    text-decoration: none;
 }
+
 p a:hover {
     color: rgb(235, 79, 32);
-  }
-
-
-  /*proyectos*/
-
-  .proyecto img {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    display: block;
-    transition: all 0.2s ease;
-
-  }
-
-  .proyecto{
-    padding-top: 20px;
-    margin-bottom: 40px;
-    
-  }
-
-
-/* responsivo */
-
-@media screen and (max-width: 767px) {
-    .navbar-brand {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .sec-hero-img {
-        max-width: 600px;
-    }
 }
 
 .expert {
@@ -164,8 +131,64 @@ p a:hover {
     border-radius: 50%;
 }
 
-.proyect{
+
+/*proyectos*/
+
+.proyect {
     padding: 40px;
 }
 
+.proyecto img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
 
+.proyecto {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+/*
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+*/
+
+
+/* responsivo */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .sec-hero-img {
+        max-width: 600px;
+    }
+}
