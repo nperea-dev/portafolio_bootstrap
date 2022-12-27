@@ -105,6 +105,33 @@ h1 {
 }
 
 
+p a {
+    text-decoration:none ;
+}
+p a:hover {
+    color: rgb(235, 79, 32);
+  }
+
+
+  /*proyectos*/
+
+  .proyecto img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+
+  }
+
+  .proyecto{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    
+  }
+
+
 /* responsivo */
 
 @media screen and (max-width: 767px) {
@@ -140,3 +167,5 @@ h1 {
 .proyect{
     padding: 40px;
 }
+
+
