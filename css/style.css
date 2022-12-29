@@ -196,8 +196,103 @@ p a:hover {
     font-size: 60px;
     margin: 10px;
 }
+/*testimomio*/
 
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
 
+.testimonios .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 50%;
+}
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+}
+.testimonio-info p {
+    margin-bottom: 0;
+}
+.testimonio-info .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+   font-size: 0.9rem;
+   color: #656060;
+}
+
+/*contacto*/
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 1px white;
+    height: 100px;
+}
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+.contacto .button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin-right: 10px;
+    border-radius:100px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.contacto .button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+/*footer*/
+
+.link-footer {
+    font-size: 1.8rem;
+    text-align: center;
+}
 /* responsivo */
 
 @media screen and (max-width: 767px) {
@@ -221,17 +316,15 @@ p a:hover {
     }
 }
 
+@media screen and (max-width: 800px ) {
+    .testimonio-imagen{
+        height: 120px;
+        width: 120px;
 
-/*testimomio*/
+    }
+    .testimonio-texto{
 
-.testimonios {
-    padding: 40px 40px 80px 40px;
-}
-
-.testimonios .carousel {
-    max-width: 800px;
-}
-
-.carousel-item {
-    height: 500px;
+        font-size: 18px;
+    }
+    
 }
