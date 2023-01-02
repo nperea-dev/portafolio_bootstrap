@@ -57,7 +57,7 @@
 /* estilos de navbar */
 
 .navbar {
-    background-color: #f7f6f5;
+    background-color: #4b3c2d;
 }
 
 .navbar-collapse {
@@ -102,13 +102,13 @@ h1 {
 /*conoceme*/
 
 .conoceme {
-    height: 600px;
+   
     padding: 10px;
 }
 
 .conoceme .wrap {
-    max-width: 510px;
-    text-align: center;
+    max-width: 1000px;
+    text-align: justify;
 }
 
 p a {
@@ -361,6 +361,17 @@ footer {
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
+    }
+    .conoceme {
+    height: 600px;
+        padding: 10px;
+    }
+
+
+
+    .conoceme .wrap {
+        max-width: 510px;
+        text-align: center;
     }
 }
 
